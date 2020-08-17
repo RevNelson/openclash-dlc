@@ -11,19 +11,21 @@ skip_ad_entries = False
 cn_to_domestic = True
 
 categories = {
-    "select": ["geolocation-!cn, github"],
-    "Social": ["discord", "reddit", "facebook", "google", "instagram", "twitter", "snapchat", "messenger"],
-    "Speedtest": ["ookla-speedtest"],
-    "Youtube": ["youtube", "vimeo"],
-    "Spotify": ["spotify"],
-    "Porn": ["category-porn"],
+    "Amazon": ["amazon"],
     "Apple": ["apple"],
-    "Microsoft": ["microsoft"],
-    "PayPal": ["paypal"],
-    "Telegram": ["telegram", "signal"],
-    "Netflix": ["netflix", "hulu", "showtimeanytime", "hbo"],
+    "BBC": ["category-media"],
     "GlobalTV": [],
+    "Microsoft": ["microsoft"],
+    "Netflix": ["hbo", "hulu", "netflix", "showtimeanytime"],
+    "PayPal": ["paypal"],
+    "Porn": ["category-porn"],
+    "select": ["geolocation-!cn", "github"],
+    "Social": ["discord", "facebook", "google", "instagram", "messenger", "reddit", "snapchat", "twitter", "whatsapp"],
+    "Speedtest": ["ookla-speedtest"],
+    "Spotify": ["spotify"],
     "Steam": ["steam"],
+    "Telegram": ["signal", "telegram"],
+    "Youtube": ["vimeo", "youtube"],
     "AdBlock": [],
     "Domestic": ["geolocation-cn"]
 }
