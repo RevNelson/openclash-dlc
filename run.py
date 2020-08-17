@@ -1,10 +1,11 @@
 import os
 
 from settings import domain_dir, yaml_base, categories, repo_base
-from gitHandler import pull_repo
+from gitHandler import fetch_submodule, pull_repo
 from parseFile import parse_file
 from writeYAML import writeYAML
 
+print(fetch_submodule())
 print(pull_repo())
 
 print("Scanning for domains...")
