@@ -12,22 +12,8 @@ skip_ad_entries = False
 cn_to_domestic = True
 
 categories = {
-    "Amazon": ["amazon"],
-    "Apple": ["apple"],
-    "BBC": ["category-media"],
-    "GlobalTV": [],
+    "Domestic": ["geolocation-cn"],
     "Microsoft": ["microsoft"],
-    "Netflix": ["hbo", "hulu", "netflix", "showtimeanytime"],
-    "PayPal": ["paypal"],
-    "Porn": ["category-porn"],
-    "select": ["geolocation-!cn", "github"],
-    "Social": ["discord", "facebook", "google", "instagram", "messenger", "reddit", "snapchat", "twitter", "whatsapp"],
-    "Speedtest": ["ookla-speedtest"],
-    "Spotify": ["spotify"],
-    "Steam": ["steam"],
-    "Telegram": ["signal", "telegram"],
-    "Youtube": ["vimeo", "youtube"],
-    "AdBlock": [],
-    "Domestic": ["geolocation-cn"]
+    "select": ["geolocation-!cn", "github"]
 }
 '''
