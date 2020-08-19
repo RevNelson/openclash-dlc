@@ -7,8 +7,8 @@ def line_handler(line):
         parsed_line = "  - DOMAIN," + line.split("full:")[1]
     elif "keyword:" in line:
         parsed_line = "  - DOMAIN-KEYWORD," + line.split("keyword:")[1]
-    elif "." not in line:
-        parsed_line = "  - DOMAIN-KEYWORD," + line
+    # elif "." not in line:
+    #     parsed_line = "  - DOMAIN-SUFFIX," + line
     else:
         parsed_line = "  - DOMAIN-SUFFIX," + line
     return parsed_line
