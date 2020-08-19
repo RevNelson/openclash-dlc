@@ -13,6 +13,8 @@ def main():
     if check_settings():
         from parseCategories import parse_categories
         parse_categories()
+    else:
+        print("Please visit github.com/RevNelson/openclash-dlc for more information about required settings.\n")
 
 
 main()

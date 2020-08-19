@@ -3,7 +3,7 @@ from defaultSettings import default_settings
 
 settings = './settings.py'
 
-required_attributes = ["domain_dir", "yaml_base", "repo_base",
+required_attributes = ["domain_dir", "yaml_base",
                        "skip_ad_entries", "cn_to_domestic", "categories"]
 
 
