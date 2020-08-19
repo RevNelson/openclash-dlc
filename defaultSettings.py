@@ -1,3 +1,4 @@
+default_settings = '''\
 from checkEnv import checkEnv
 
 domain_dir = "./dlc/data/"
@@ -29,3 +30,4 @@ categories = {
     "AdBlock": [],
     "Domestic": ["geolocation-cn"]
 }
+'''

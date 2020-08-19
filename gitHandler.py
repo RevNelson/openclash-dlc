@@ -9,7 +9,7 @@ def pull_this_repo():
         pull = subprocess.Popen(
             ['git', 'pull', '-v', 'origin', 'master'])
         pull.wait()
-        return "Parser git pull successful.\nIf new pull found, rerun script.\n"
+        return "openclash-dlc git pull successful.\n"
     except Exception as err:
         return err
 
